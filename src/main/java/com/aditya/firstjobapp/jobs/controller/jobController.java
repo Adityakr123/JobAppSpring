@@ -15,4 +15,8 @@ public class jobController {
     public List<Job> findAll(){
         return jobs;
     }
+    @GetMapping("/dalla")
+    public String findAl(){
+        return "musambi ka juice pilado!!";
+    }
 }
