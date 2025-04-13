@@ -19,4 +19,8 @@ public class jobController {
     public String findAl(){
         return "musambi ka juice pilado!!";
     }
+    @GetMapping("/dallaa")
+    public String findl(){
+        return "musambi ka nariyal ka  pilado!!";
+    }
 }
