@@ -13,7 +13,7 @@ public class jobController {
 
     @GetMapping("/jobs")
     public List<Job> findAll(){
-        return jobs;
+        return "hello";
     }
 
 }
